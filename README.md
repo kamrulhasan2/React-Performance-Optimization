@@ -1,3 +1,6 @@
+# Resources:
+https://react.dev/reference/dev-tools/react-performance-tracks
+
 # React Performance Optimization: বিস্তারিত আলোচনা
 
 React দিয়ে বানানো ওয়েব অ্যাপ যদি ধীরগতি হয়, তবে ব্যবহারকারী বিরক্ত হয়ে যায় এবং অ্যাপ থেকে বেরিয়ে যেতে পারে। তাই **React Performance Optimization** খুবই গুরুত্বপূর্ণ। এখানে আমরা ধাপে ধাপে সবকিছু আলোচনা করবো, সাথে **কোড উদাহরণ** দিব।
