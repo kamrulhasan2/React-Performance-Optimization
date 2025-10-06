@@ -1,6 +1,7 @@
 import './App.css'
-import CalculatorComponent from './components/CalculatorComponent'
-import FixCalculatorComponent from './components/FixCalculatorComponent'
+import CalculatorComponent from './components/Example-1/CalculatorComponent'
+import FixCalculatorComponent from './components/Example-1/FixCalculatorComponent'
+import ParentComponent from './components/Example-2/ExampleOfUseCallback'
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
         {/* <CalculatorComponent /> */}
                                  {/*  this component have performance isse */}
       
-      
+        <ParentComponent/>
         <FixCalculatorComponent />
       </div> 
     </>
