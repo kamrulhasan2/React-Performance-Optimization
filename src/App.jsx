@@ -2,6 +2,7 @@ import './App.css'
 import CalculatorComponent from './components/Example-1/CalculatorComponent'
 import FixCalculatorComponent from './components/Example-1/FixCalculatorComponent'
 import ParentComponent from './components/Example-2/ExampleOfUseCallback'
+import ProfileSwitcher from './components/Example-3/ProfileSwitcher'
 
 function App() {
   
@@ -14,6 +15,9 @@ function App() {
       
         <ParentComponent/>
         <FixCalculatorComponent />
+        
+
+         <ProfileSwitcher />
       </div> 
     </>
   )
