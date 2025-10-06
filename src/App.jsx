@@ -1,5 +1,6 @@
 import './App.css'
 import CalculatorComponent from './components/CalculatorComponent'
+import FixCalculatorComponent from './components/FixCalculatorComponent'
 
 function App() {
   
@@ -7,7 +8,11 @@ function App() {
     <>
       <div>
         <h1>Welcome to React Performance Optimization</h1>
-        <CalculatorComponent />
+        {/* <CalculatorComponent /> */}
+                                 {/*  this component have performance isse */}
+      
+      
+        <FixCalculatorComponent />
       </div> 
     </>
   )
