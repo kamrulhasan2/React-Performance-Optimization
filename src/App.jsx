@@ -5,6 +5,7 @@ import ParentComponent from './components/Example-2/ExampleOfUseCallback'
 import ProfileSwitcher from './components/Example-3/ProfileSwitcher'
 import SubmitForm from './components/Example-4/SubmitForm'
 import UserProfile from './components/Example-4/UserProfile'
+import Dashboard from './components/Example-5/Dashboard'
 
 function App() {
   
@@ -20,9 +21,9 @@ function App() {
         
 
          <ProfileSwitcher /> */}
-        <UserProfile firstName="kamrul" lastName="hasan" />
-        <SubmitForm />
-    
+        {/* <UserProfile firstName="kamrul" lastName="hasan" />
+        <SubmitForm /> */}
+        <Dashboard />
       </div> 
     </>
   )
