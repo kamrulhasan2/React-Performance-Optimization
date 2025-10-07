@@ -3,6 +3,7 @@ import CalculatorComponent from './components/Example-1/CalculatorComponent'
 import FixCalculatorComponent from './components/Example-1/FixCalculatorComponent'
 import ParentComponent from './components/Example-2/ExampleOfUseCallback'
 import ProfileSwitcher from './components/Example-3/ProfileSwitcher'
+import UserProfile from './components/Example-4/UserProfile'
 
 function App() {
   
@@ -13,11 +14,13 @@ function App() {
         {/* <CalculatorComponent /> */}
                                  {/*  this component have performance isse */}
       
-        <ParentComponent/>
+        {/* <ParentComponent/>
         <FixCalculatorComponent />
         
 
-         <ProfileSwitcher />
+         <ProfileSwitcher /> */}
+        <UserProfile firstName="kamrul" lastName="hasan" />
+    
       </div> 
     </>
   )
